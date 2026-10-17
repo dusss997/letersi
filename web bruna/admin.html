@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paneli i Administratorit — Migjeni &amp; Dritëro Agolli</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  <header class="a-top">
+    <div class="a-brand">
+      <span class="a-brand__mark">M&#183;A</span>
+      <span class="a-brand__txt">
+        <b>Paneli i Administratorit</b>
+        <span>Migjeni &amp; Dritëro Agolli</span>
+      </span>
+    </div>
+
+    <span class="a-status" id="status">Ndryshime: <b>0</b></span>
+
+    <div class="a-actions">
+      <button class="btn-a" id="btnPreview" title="Shfaq/fsheh pamjen">Pamja</button>
+      <button class="btn-a btn-a--ghost" id="btnOpen" title="Hap faqen në tab të re">Hap faqen</button>
+      <button class="btn-a btn-a--ghost" id="btnExport" title="Shkarko seed.js për t'i bërë ndryshimet të përhershme">Eksporto seed.js</button>
+      <button class="btn-a btn-a--ghost" id="btnBackup" title="Shkarko një kopje .json">Backup .json</button>
+      <button class="btn-a btn-a--ghost" id="btnImport" title="Ngarko një kopje .json">Importo</button>
+      <input type="file" id="importFile" accept=".json,application/json" hidden>
+      <button class="btn-a btn-a--danger" id="btnReset" title="Fshi të gjitha ndryshimet">Fshi</button>
+      <button class="btn-a btn-a--primary" id="btnSave" title="Ruaj në shfletues">Ruaj</button>
+    </div>
+  </header>
+
+  <div class="a-layout" id="layout">
+    <aside class="a-side">
+      <input type="text" class="a-side__search" id="search" placeholder="Kërko fushë...">
+      <ul class="a-nav" id="nav"></ul>
+    </aside>
+
+    <main class="a-main" id="main"></main>
+
+    <section class="a-preview">
+      <div class="a-preview__bar">
+        <b>Pamja live</b>
+        <span style="margin-left:auto"></span>
+        <button class="btn-a btn-a--sm" id="btnReloadPreview">Rifresko</button>
+      </div>
+      <iframe id="preview" src="index.html" title="Pamja e faqes"></iframe>
+    </section>
+  </div>
+
+  <div class="a-toast" id="toast"></div>
+
+  <script src="js/seed.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

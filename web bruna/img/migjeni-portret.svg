@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-label="Portret stilizuar i Migjenit">
+  <defs>
+    <radialGradient id="bgM" cx="50%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#3a2b18"/>
+      <stop offset="55%" stop-color="#20160c"/>
+      <stop offset="100%" stop-color="#0c0805"/>
+    </radialGradient>
+    <linearGradient id="goldM" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7e2a3"/>
+      <stop offset="45%" stop-color="#d9b45c"/>
+      <stop offset="100%" stop-color="#8f6a23"/>
+    </linearGradient>
+    <linearGradient id="bustM" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b1712"/>
+      <stop offset="100%" stop-color="#070605"/>
+    </linearGradient>
+    <pattern id="hatchM" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#d9b45c" stroke-opacity="0.09" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="760" fill="url(#bgM)"/>
+  <rect width="600" height="760" fill="url(#hatchM)"/>
+
+  <g opacity="0.5" fill="none" stroke="url(#goldM)" stroke-width="1.4">
+    <circle cx="300" cy="330" r="232"/>
+    <circle cx="300" cy="330" r="246" stroke-dasharray="2 9" stroke-opacity="0.6"/>
+  </g>
+
+  <path d="M300 118c-72 0-118 56-118 132 0 30 8 58 22 80-14 20-22 46-22 74v168c0 22 18 40 40 40h156c22 0 40-18 40-40V404c0-28-8-54-22-74 14-22 22-50 22-80 0-76-46-132-118-132z"
+        fill="url(#bustM)" stroke="url(#goldM)" stroke-width="2"/>
+
+  <path d="M242 250c0-40 26-64 58-64s58 24 58 64c0 34-14 62-34 82-6 6-14 10-24 10s-18-4-24-10c-20-20-34-48-34-82z" fill="#2a231a"/>
+  <path d="M256 214c14-18 34-28 54-24 22 4 38 20 44 42-16-12-34-18-52-18-18 0-34 4-46 12z" fill="#0d0b08"/>
+  <path d="M246 268c-12-4-20 4-20 18 0 14 8 22 20 20zM354 268c12-4 20 4 20 18 0 14-8 22-20 20z" fill="#2a231a"/>
+
+  <path d="M212 380c30-20 56-28 88-28s58 8 88 28c24 16 36 40 36 70v158c0 12-10 22-22 22H198c-12 0-22-10-22-22V450c0-30 12-54 36-70z" fill="#141009" stroke="url(#goldM)" stroke-width="1.4"/>
+  <path d="M300 356l-26 30 26 34 26-34z" fill="url(#goldM)" opacity="0.9"/>
+
+  <path d="M300 578c-40 0-74 10-96 26v40h192v-40c-22-16-56-26-96-26z" fill="#0a0806" opacity="0.6"/>
+
+  <g fill="url(#goldM)">
+    <rect x="150" y="676" width="300" height="2.4" opacity="0.85"/>
+    <text x="300" y="722" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="42" letter-spacing="10" fill="url(#goldM)">MIGJENI</text>
+    <text x="300" y="750" text-anchor="middle" font-family="Georgia, serif" font-size="17" letter-spacing="4" fill="#c9a86a" fill-opacity="0.8">1911 &#8212; 1938</text>
+  </g>
+</svg>

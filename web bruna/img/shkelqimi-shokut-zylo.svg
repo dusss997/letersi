@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 620" role="img" aria-label="Kopertina Shkëlqimi dhe rënia e shokut Zylo">
+  <defs>
+    <linearGradient id="c9bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4a1220"/>
+      <stop offset="55%" stop-color="#2e0a14"/>
+      <stop offset="100%" stop-color="#150308"/>
+    </linearGradient>
+    <linearGradient id="c9g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffe3d0"/>
+      <stop offset="50%" stop-color="#e0a07a"/>
+      <stop offset="100%" stop-color="#9c5334"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="620" fill="url(#c9bg)"/>
+  <rect x="0" y="0" width="26" height="620" fill="#0d0206"/>
+  <rect x="26" y="0" width="4" height="620" fill="url(#c9g)" opacity="0.7"/>
+  <rect x="48" y="40" width="330" height="540" fill="none" stroke="url(#c9g)" stroke-width="1.4" opacity="0.7"/>
+
+  <g fill="none" stroke="url(#c9g)" stroke-width="1.8" opacity="0.9">
+    <path d="M150 250l60-34 60 34-12 40-48 22-48-22z"/>
+    <path d="M150 250l60 22 60-22M210 272v40"/>
+  </g>
+  <path d="M210 180l9 24 26 2-20 16 8 25-23-15-23 15 8-25-20-16 26-2z" fill="url(#c9g)" opacity="0.9"/>
+  <path d="M150 360c20-12 60-12 60-12s40 0 60 12" fill="none" stroke="url(#c9g)" stroke-width="1.4" opacity="0.5"/>
+
+  <text x="210" y="424" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="url(#c9g)">SHK&#203;LQIMI</text>
+  <text x="210" y="452" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="url(#c9g)">DHE R&#203;NIA E</text>
+  <text x="210" y="482" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" fill="url(#c9g)">SHOKUT ZYLO</text>
+  <rect x="140" y="500" width="140" height="1.6" fill="url(#c9g)" opacity="0.8"/>
+  <text x="210" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="4" fill="url(#c9g)">DRIT&#203;RO AGOLLI</text>
+  <text x="210" y="566" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="6" fill="#9c5334">1973</text>
+</svg>

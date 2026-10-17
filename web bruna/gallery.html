@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria — Migjeni &amp; Dritëro Agolli</title>
+  <meta name="description" content="Galeria e plotë: portretet dhe kopertinat e librave të Migjenit dhe Dritëro Agollit.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Merriweather:ital,wght@0,300;0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,400&family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Montserrat:wght@300;400;500;600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a class="nav__brand" href="index.html">
+        <span class="nav__mark">M&#183;A</span>
+        <span class="nav__title">Letërsia Shqipe</span>
+      </a>
+      <nav class="nav__links" aria-label="Navigimi kryesor">
+        <a href="index.html#migjeni">Migjeni</a>
+        <a href="index.html#agolli">Dritëro Agolli</a>
+        <a href="index.html#krahasim">Krahasim</a>
+        <a href="gallery.html" class="is-current">Galeria</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Hap menunë" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="gallery-page">
+    <header class="gallery-head reveal">
+      <p class="section__eyebrow center">Portrete &amp; Kopertina</p>
+      <h1 class="gallery-title">Galeria</h1>
+      <p class="gallery-lead">
+        Të gjitha fotot e faqes në një vend: portretet e dy shkrimtarëve dhe
+        kopertinat e librave të tyre më të famshëm.
+      </p>
+      <div class="gallery-filters" id="filters">
+        <button class="gfilter is-active" data-filter="all">Të gjitha <span>8</span></button>
+        <button class="gfilter" data-filter="portret">Portrete <span>2</span></button>
+        <button class="gfilter" data-filter="kopertina">Kopertina <span>6</span></button>
+        <button class="gfilter" data-filter="migjeni">Migjeni <span>4</span></button>
+        <button class="gfilter" data-filter="agolli">Agolli <span>4</span></button>
+      </div>
+    </header>
+
+    <section class="gallery-grid" id="grid">
+      <figure class="gitem" data-cat="portret" data-author="migjeni">
+        <button class="gitem__btn" type="button">
+          <img src="img/migjeni-portret.svg" data-k="img.migjeni" alt="Portret i Migjenit" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name">Migjeni</span>
+          <span class="gitem__tag">Portret</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="portret" data-author="agolli">
+        <button class="gitem__btn" type="button">
+          <img src="img/agolli-portret.svg" data-k="img.agolli" alt="Portret i Dritëro Agollit" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name">Dritëro Agolli</span>
+          <span class="gitem__tag">Portret</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="kopertina" data-author="migjeni">
+        <button class="gitem__btn" type="button">
+          <img src="img/vargjet-e-lira.svg" data-k="img.cover.vargjet" alt="Kopertina e Vargjet e lira" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name" data-k="m.cover.1.title">Vargjet e lira</span>
+          <span class="gitem__tag" data-k="m.cover.1.year">1936</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="kopertina" data-author="migjeni">
+        <button class="gitem__btn" type="button">
+          <img src="img/novelet-e-vogla.svg" data-k="img.cover.novelet" alt="Kopertina e Novelet e vogla" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name" data-k="m.cover.2.title">Novelet e vogla</span>
+          <span class="gitem__tag" data-k="m.cover.2.year">Prozë</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="kopertina" data-author="migjeni">
+        <button class="gitem__btn" type="button">
+          <img src="img/luli-i-vocerr.svg" data-k="img.cover.luli" alt="Kopertina e Luli i vocërr" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name" data-k="m.cover.3.title">Luli i vocërr</span>
+          <span class="gitem__tag" data-k="m.cover.3.year">Tregim</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="kopertina" data-author="agolli">
+        <button class="gitem__btn" type="button">
+          <img src="img/komisari-memo.svg" data-k="img.cover.memo" alt="Kopertina e Komisari Memo" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name" data-k="a.cover.1.title">Komisari Memo</span>
+          <span class="gitem__tag" data-k="a.cover.1.year">1970</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="kopertina" data-author="agolli">
+        <button class="gitem__btn" type="button">
+          <img src="img/shkelqimi-shokut-zylo.svg" data-k="img.cover.zylo" alt="Kopertina e Shkëlqimi dhe rënia e shokut Zylo" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name" data-k="a.cover.2.title">Shkëlqimi dhe rënia e shokut Zylo</span>
+          <span class="gitem__tag" data-k="a.cover.2.year">1973</span>
+        </figcaption>
+      </figure>
+
+      <figure class="gitem" data-cat="kopertina" data-author="agolli">
+        <button class="gitem__btn" type="button">
+          <img src="img/njeriu-me-top.svg" data-k="img.cover.top" alt="Kopertina e Njeriu me top" loading="lazy">
+        </button>
+        <figcaption>
+          <span class="gitem__name" data-k="a.cover.3.title">Njeriu me top</span>
+          <span class="gitem__tag" data-k="a.cover.3.year">1975</span>
+        </figcaption>
+      </figure>
+    </section>
+
+    <div class="gallery-foot">
+      <a class="btn btn--gold" href="index.html">&#8592; Kthehu në faqen kryesore</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__title" data-k="footer.title">Migjeni &amp; Dritëro Agolli</p>
+      <p class="footer__copy">&copy; <span id="year"></span> &middot; Galeria &middot; Ndërtuar me respekt për fjalën shqipe.</p>
+      <p class="footer__admin"><a href="admin.html">&#9881; Paneli i administratorit</a></p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="lightbox__backdrop" data-lb-close></div>
+    <button class="lightbox__close" data-lb-close aria-label="Mbyll">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" data-lb-prev aria-label="Fotografia e mëparshme">&#8249;</button>
+    <figure class="lightbox__stage">
+      <img id="lightboxImg" src="" alt="">
+      <figcaption id="lightboxCap"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" data-lb-next aria-label="Fotografia tjetër">&#8250;</button>
+  </div>
+
+  <script src="js/seed.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/site.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

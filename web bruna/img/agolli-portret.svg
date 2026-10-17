@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 760" role="img" aria-label="Portret stilizuar i Dritëro Agollit">
+  <defs>
+    <radialGradient id="bgA" cx="50%" cy="34%" r="78%">
+      <stop offset="0%" stop-color="#1d3040"/>
+      <stop offset="55%" stop-color="#111d28"/>
+      <stop offset="100%" stop-color="#070d13"/>
+    </radialGradient>
+    <linearGradient id="goldA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d9ecf7"/>
+      <stop offset="45%" stop-color="#78a7c9"/>
+      <stop offset="100%" stop-color="#3b6486"/>
+    </linearGradient>
+    <linearGradient id="bustA" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#16202b"/>
+      <stop offset="100%" stop-color="#05080c"/>
+    </linearGradient>
+    <pattern id="hatchA" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(-35)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#78a7c9" stroke-opacity="0.10" stroke-width="3"/>
+    </pattern>
+  </defs>
+
+  <rect width="600" height="760" fill="url(#bgA)"/>
+  <rect width="600" height="760" fill="url(#hatchA)"/>
+
+  <g opacity="0.5" fill="none" stroke="url(#goldA)" stroke-width="1.4">
+    <circle cx="300" cy="330" r="232"/>
+    <circle cx="300" cy="330" r="246" stroke-dasharray="2 9" stroke-opacity="0.6"/>
+  </g>
+
+  <path d="M300 118c-72 0-118 56-118 132 0 30 8 58 22 80-14 20-22 46-22 74v168c0 22 18 40 40 40h156c22 0 40-18 40-40V404c0-28-8-54-22-74 14-22 22-50 22-80 0-76-46-132-118-132z"
+        fill="url(#bustA)" stroke="url(#goldA)" stroke-width="2"/>
+
+  <path d="M240 246c0-42 27-66 60-66s60 24 60 66c0 34-14 64-35 84-6 6-15 10-25 10s-19-4-25-10c-21-20-35-50-35-84z" fill="#26313c"/>
+  <path d="M250 206c14-24 34-36 50-36s36 12 50 36c-16-8-32-12-50-12s-34 4-50 12z" fill="#0c1218"/>
+  <path d="M244 270c-13-4-22 5-22 20 0 15 9 24 22 21zM356 270c13-4 22 5 22 20 0 15-9 24-22 21z" fill="#26313c"/>
+  <path d="M262 336c10 8 24 12 38 12s28-4 38-12c-4 16-20 26-38 26s-34-10-38-26z" fill="#39434d"/>
+
+  <path d="M212 380c30-20 56-28 88-28s58 8 88 28c24 16 36 40 36 70v158c0 12-10 22-22 22H198c-12 0-22-10-22-22V450c0-30 12-54 36-70z" fill="#101a24" stroke="url(#goldA)" stroke-width="1.4"/>
+  <path d="M300 356l-26 30 26 34 26-34z" fill="url(#goldA)" opacity="0.9"/>
+
+  <path d="M300 578c-40 0-74 10-96 26v40h192v-40c-22-16-56-26-96-26z" fill="#050a0f" opacity="0.6"/>
+
+  <g fill="url(#goldA)">
+    <rect x="150" y="676" width="300" height="2.4" opacity="0.85"/>
+    <text x="300" y="718" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="6" fill="url(#goldA)">DRITËRO</text>
+    <text x="300" y="752" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="9" fill="url(#goldA)">AGOLLI</text>
+  </g>
+</svg>

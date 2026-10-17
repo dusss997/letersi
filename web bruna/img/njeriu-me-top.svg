@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 620" role="img" aria-label="Kopertina Njeriu me top">
+  <defs>
+    <linearGradient id="c8bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2b3138"/>
+      <stop offset="55%" stop-color="#1b2026"/>
+      <stop offset="100%" stop-color="#0c1013"/>
+    </linearGradient>
+    <linearGradient id="c8g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f6e7c6"/>
+      <stop offset="50%" stop-color="#cbb072"/>
+      <stop offset="100%" stop-color="#8a7443"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="620" fill="url(#c8bg)"/>
+  <rect x="0" y="0" width="26" height="620" fill="#070a0c"/>
+  <rect x="26" y="0" width="4" height="620" fill="url(#c8g)" opacity="0.7"/>
+  <rect x="48" y="40" width="330" height="540" fill="none" stroke="url(#c8g)" stroke-width="1.4" opacity="0.7"/>
+
+  <g fill="none" stroke="url(#c8g)" stroke-width="2" opacity="0.92">
+    <path d="M110 300h150"/>
+    <path d="M260 300l40-22v44z" fill="url(#c8g)" stroke="none"/>
+    <circle cx="270" cy="300" r="30" opacity="0.5"/>
+    <path d="M150 300v-14M186 300v-14M222 300v-14"/>
+    <path d="M100 300l-16 30M100 300l-16-30"/>
+  </g>
+  <circle cx="104" cy="300" r="30" fill="none" stroke="url(#c8g)" stroke-width="2"/>
+  <circle cx="104" cy="300" r="10" fill="url(#c8g)" opacity="0.8"/>
+
+  <g fill="url(#c8g)" opacity="0.9">
+    <path d="M210 176l10 26 28 2-22 17 8 27-24-16-24 16 8-27-22-17 28-2z"/>
+  </g>
+
+  <text x="210" y="440" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="url(#c8g)">NJERIU</text>
+  <text x="210" y="482" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="url(#c8g)">ME TOP</text>
+  <rect x="150" y="500" width="120" height="1.6" fill="url(#c8g)" opacity="0.8"/>
+  <text x="210" y="538" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="4" fill="url(#c8g)">DRIT&#203;RO AGOLLI</text>
+  <text x="210" y="566" text-anchor="middle" font-family="Georgia, serif" font-size="13" letter-spacing="6" fill="#8a7443">1975</text>
+</svg>
